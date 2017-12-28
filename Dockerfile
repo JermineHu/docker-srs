@@ -6,4 +6,4 @@ COPY ./init.d/srs /etc/init.d/srs
 COPY ./srs /usr/local/srs/srs
 COPY ./ffmpeg /usr/local/bin/ffmpeg
 EXPOSE 1935 1985 8080
-RUN chmod +x ./srs
+RUN chmod +x ./srs /usr/local/bin/ffmpeg
